@@ -26,3 +26,19 @@ License Key: krainium2026
 create_outlook.exe --key krainium2026
 ```
 
+## 📦 First Run Setup
+
+When the tool runs for the first time, it will automatically detect that browser dependencies are missing and install them for you. This only happens once. No manual setup is required.
+
+```
+ FIRST RUN SETUP
+ ________________________________________
+
+ [*] Installing browser dependencies...
+     This only happens once.
+
+ [+] Browser installed successfully!
+```
+
+After the first run, the tool starts instantly on every launch.
+
