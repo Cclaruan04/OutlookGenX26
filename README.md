@@ -155,3 +155,57 @@ The tool was originally developed as a Python script. Below are screenshots from
   <img src="screenshots/python_name.png" width="700" alt="Python script name step" />
 </p>
 
+## 📂 Output Format
+
+All created accounts are saved in `created.txt` located in the same folder as the exe.
+
+```
+email@outlook.com:password
+email2@outlook.com:password2
+```
+
+Use `--list` to view them:
+
+```
+create_outlook.exe --list
+
+  Created Accounts (2)
+  __________________________________________________
+    1 email@outlook.com:password
+    2 email2@outlook.com:password2
+```
+
+## 💻 System Requirements
+
+| Requirement | Details |
+|-------------|---------|
+| OS | Windows 10 / 11 / Server 2019+ |
+| RAM | 4 GB minimum |
+| Disk | 500 MB free (for browser download on first run) |
+| Network | Internet connection required |
+
+No Python installation needed. No manual dependency setup. Everything is handled automatically.
+
+## 📝 Notes
+
+> The tool is built from a Python source. The Python file is not included in this release. Only the compiled Windows executable is provided for distribution.
+
+> Each account creation takes approximately 2 to 4 minutes depending on captcha difficulty and network speed.
+
+> When creating multiple accounts with `--count`, the tool automatically waits 30 to 60 seconds between each creation.
+
+> The `--screenshot` flag saves browser screenshots at key moments (password entry, inbox verification) to the directory you specify.
+
+---
+
+<p align="center">
+  <b>Outlook Creation Tool v1.0</b> by <b>krainium</b>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/⚠️-For%20Educational%20Purposes%20Only-yellow?style=for-the-badge" />
+</p>
+
+<p align="center">
+  <i>This tool is provided for educational purposes only. The author is not responsible for any misuse.</i>
+</p>
