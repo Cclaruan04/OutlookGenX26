@@ -61,3 +61,36 @@ You will see the main menu:
   0  Exit
 ```
 
+### Command Line
+
+| Command | Description |
+|---------|-------------|
+| `create_outlook.exe --create` | Create one account |
+| `create_outlook.exe --create --count 5` | Create 5 accounts |
+| `create_outlook.exe --create --proxy host:port:user:pass` | Create with proxy |
+| `create_outlook.exe --list` | View all created accounts |
+| `create_outlook.exe --key YOUR_KEY` | Activate license |
+| `create_outlook.exe --screenshot C:\screenshots` | Save browser screenshots during creation |
+| `create_outlook.exe --output C:\myfile.txt` | Custom output file for accounts |
+| `create_outlook.exe --no-banner` | Suppress the banner |
+
+### Examples
+
+**Create one account locally:**
+
+```
+create_outlook.exe --create
+```
+
+**Create 3 accounts with a proxy:**
+
+```
+create_outlook.exe --create --count 3 --proxy rp.scrapegw.com:6060:username:password
+```
+
+**Create with screenshots saved:**
+
+```
+create_outlook.exe --create --screenshot C:\Users\You\Desktop\screenshots
+```
+
