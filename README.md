@@ -139,9 +139,7 @@ Account creation running on Windows Server 2025 through a US residential proxy.
   <img src="screenshots/win_proxy_password.png" width="700" alt="Windows exe with proxy" />
 </p>
 
-### 🐍 Python Script
-
-The tool was originally developed as a Python script. Below are screenshots from the Python version running on a cloud instance.
+Below are screenshots running on a cloud instance.
 
 **Password entry step:**
 
@@ -188,7 +186,7 @@ No Python installation needed. No manual dependency setup. Everything is handled
 
 ## 📝 Notes
 
-> The tool is built from a Python source. The Python file is not included in this release. Only the compiled Windows executable is provided for distribution.
+> This tool is built from a Python source. The Python file is not included in this release. Only the compiled Windows executable is provided for distribution.
 
 > Each account creation takes approximately 2 to 4 minutes depending on captcha difficulty and network speed.
 
