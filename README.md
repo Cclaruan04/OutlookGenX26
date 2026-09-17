@@ -94,3 +94,19 @@ create_outlook.exe --create --count 3 --proxy rp.scrapegw.com:6060:username:pass
 create_outlook.exe --create --screenshot C:\Users\You\Desktop\screenshots
 ```
 
+## ⚙️ How It Works
+
+The tool goes through 8 automated steps:
+
+| Step | Action |
+|------|--------|
+| 1 | Loads the Microsoft signup page |
+| 2 | Enters a randomly generated username |
+| 3 | Sets a strong random password |
+| 4 | Fills in a random date of birth |
+| 5 | Enters a random first and last name |
+| 6 | Solves the Arkose press and hold captcha |
+| 7 | Handles recovery email verification |
+| 8 | Verifies the account was created |
+
+Created accounts are saved in `created.txt` next to the exe in `email:password` format.
