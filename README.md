@@ -110,3 +110,48 @@ The tool goes through 8 automated steps:
 | 8 | Verifies the account was created |
 
 Created accounts are saved in `created.txt` next to the exe in `email:password` format.
+
+## 🌐 Proxy Support
+
+The tool supports HTTP proxies in `host:port:user:pass` format. This is useful when creating multiple accounts or when you need accounts from a specific region.
+
+```
+create_outlook.exe --create --proxy host:port:user:pass
+```
+
+When creating multiple accounts, use a different proxy session for each to avoid detection.
+
+## 📸 Screenshots
+
+### 🖥️ Windows Exe (Without Proxy)
+
+Account creation running on Windows Server 2025 with no proxy configured.
+
+<p align="center">
+  <img src="screenshots/win_noproxy_password.png" width="700" alt="Windows exe without proxy" />
+</p>
+
+### 🖥️ Windows Exe (With Proxy)
+
+Account creation running on Windows Server 2025 through a US residential proxy.
+
+<p align="center">
+  <img src="screenshots/win_proxy_password.png" width="700" alt="Windows exe with proxy" />
+</p>
+
+### 🐍 Python Script
+
+The tool was originally developed as a Python script. Below are screenshots from the Python version running on a cloud instance.
+
+**Password entry step:**
+
+<p align="center">
+  <img src="screenshots/python_password.png" width="700" alt="Python script password step" />
+</p>
+
+**Name entry step:**
+
+<p align="center">
+  <img src="screenshots/python_name.png" width="700" alt="Python script name step" />
+</p>
+
