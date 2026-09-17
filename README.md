@@ -42,3 +42,22 @@ When the tool runs for the first time, it will automatically detect that browser
 
 After the first run, the tool starts instantly on every launch.
 
+## 🚀 Usage
+
+### Interactive Menu
+
+Double click the exe or run it from the command line with no arguments to open the interactive menu.
+
+```
+create_outlook.exe
+```
+
+You will see the main menu:
+
+```
+  1  Create account (no proxy)
+  2  Create account with proxy
+  3  View created accounts
+  0  Exit
+```
+
